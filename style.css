@@ -1,0 +1,61 @@
+:root {
+    --bg-primary: #ff4240;
+}
+li{
+    list-style: none;
+}
+.about {
+    border-top: 2px dashed #DDD;
+    border-bottom: 2px dashed #DDD;
+}
+.program_box {
+    min-height: 338px;
+    background: #fff no-repeat center;
+    background-size: cover;
+}
+.program_box_1 {
+    background-image: url('Images/2.png');
+}
+.program_box_2 {
+    background-image: url('Images/3.png');
+}
+.program_box_3 {
+    background-image: url('Images/4.png');
+}
+.program_box a {
+    width: 150px;
+    background-color: var(--bg-primary);
+    border: 0;
+}
+#Products span {
+    color: #8b8686;
+}
+#contact .mobile {
+    background-color: #f8fdf0;
+}
+#contact .email {
+    background-color: #fffcef;
+}
+#contact .location {
+    background-color: #eff5fe;
+}
+#contact p {
+    font-weight: bold;
+}
+#contact p span {
+    font-weight: normal;
+    color: #8b8686;
+}
+.social_links{
+    background-color: #f8f8f8;
+}
+.social_links i{
+    font-size: 25px;
+}
+footer{
+    background-color: #131318;
+}
+footer li{
+    color: #b7afaf;
+    font-size: 14px;
+}
